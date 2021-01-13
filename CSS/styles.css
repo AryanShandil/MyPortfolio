@@ -70,7 +70,7 @@ p{ padding-top: 1rem;
   background-color: #f05454;
   opacity: 0.5;
   transition: background-color 2s,opacity 1s;
-  color: White;
+  color: Black;
 }
 .languages:hover{
   background-color: #ef4f4f;
