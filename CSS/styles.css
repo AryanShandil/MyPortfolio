@@ -1,0 +1,174 @@
+body{
+  background-color: Black;
+  color: white;
+  font-family:'Times New Roman';
+}
+@media (max-width:1000px) {
+  .logo{
+    height: 30%;
+    width: 30%;
+    text-align: left;
+  }
+  body{
+    text-align: center;
+  }
+}
+i{
+  font-size: 30px;
+  padding:10px 10px 0;
+}
+a{
+  color: Red;
+  font-weight: 900;
+  transition: color 1s;
+}
+a:hover{
+  color: #f05454;
+  font-weight: 900;
+}
+h1{
+  margin-top: 0 ;
+  font-family: 'Georgia',cursive;
+  font-size: 40px;
+}
+.top{
+  position: relative;
+  text-align: left;
+  margin: 15% 20% 15% 25%;
+}
+span{
+  text-decoration: underline;
+}
+p{ padding-top: 1rem;
+  font-size: 156.25%;
+  font-family: sans-serif;
+}
+.circ{
+  height: 250px;
+  width: 250px;
+  padding: 5px;
+  border: solid 1px;
+  border-radius: 250px;
+  filter: grayscale(100%);
+  transition: border-color 0.5s,width 0.5s,height 0.5s,padding 0.5s,border 0.5s,filter 2s ease-out;
+}
+.circ:hover{
+  border: solid 2px;
+  height: 260px;
+  width: 260px;
+  filter: none;
+  border-color: red;
+  border-radius: 260px;
+  padding: 1px;
+}
+
+
+.languages{
+  text-align: center;
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #f05454;
+  opacity: 0.5;
+  transition: background-color 2s,opacity 1s;
+  color: black;
+}
+.languages:hover{
+  background-color: #ef4f4f;
+  opacity: 0.9;
+}
+#about{
+  position: relative;
+  /*width: 70%;
+  margin: 100px 20% 100px 25%;
+    margin-right: 250px;
+  margin-left: 250px; */
+}
+#Education{
+  position: relative;
+  /*width: 70%;
+  margin :100px 20% 100px 25%;*/
+  font-size: 30px;
+  color: White;
+}
+#skill{
+  /*width: 70%;
+  margin: 100px 20% 30% 25%;*/
+  position: relative;
+  margin-bottom: 15%;
+}
+#Hobby{
+  position: relative;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#contact{
+  margin-top: 200px;
+  position: relative;
+  text-align: center;
+}
+.contactme{
+  background-color:none;
+  margin-right: 2rem;
+  height:3.125rem;
+  width:3.125rem;
+}
+.nav{text-align: left;
+  font-size: 30px;
+  margin:0 0 10px 10px;
+  padding: 30px 20px 20px 20px;
+  width: 10rem;
+  height: 3rem;
+  color: Red;
+  font-weight: 800;
+  background-color: #fdb827;
+  opacity: 0.4;
+  transition: background-color 1s, opacity 1s;
+}
+.nav:hover{
+  background-color: #ff4646;
+  opacity: 0.8;
+}
+  #name{
+    font-size: 60px;
+    font-weight: 800;
+    padding: 10px 0;
+    font-family: sans-serif;
+  }
+
+.navigation{
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  text-align: right;
+}
+.ending{
+  font-size: 20px;
+}
+.nav-link{
+  font-size: 20px;
+}
+.nav-item{
+  margin-right: 1rem;
+}
+.aboutme{
+  padding: 5% 0 15%;
+}
+.navbar-expand-sm{
+  text-align: left;
+}
+.cv{
+  font-size: 24px;
+  font-family: "Georgia",sans-serif;
+}
+.edu{
+  text-align: left;
+  font-size:1.5rem;
+}
