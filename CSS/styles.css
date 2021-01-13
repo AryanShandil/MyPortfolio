@@ -98,8 +98,6 @@ p{ padding-top: 1rem;
   color: White;
 }
 #skill{
-  /*width: 70%;
-  margin: 100px 20% 30% 25%;*/
   position: relative;
   margin-bottom: 15%;
 }
@@ -174,6 +172,7 @@ p{ padding-top: 1rem;
   text-align: center;
 }
 .go-up{
+  padding-right:1rem;
   font-size: 3rem;
   position: fixed;
   bottom: 2rem;
