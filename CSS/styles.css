@@ -107,7 +107,7 @@ p{ padding-top: 1rem;
   position: relative;
 }
 #contact{
-  margin-top: 200px;
+  margin: 200px 0;
   position: relative;
   text-align: center;
 }
@@ -162,6 +162,7 @@ p{ padding-top: 1rem;
   text-align: left;
 }
 .cv{
+  padding:0.5rem;
   font-size: 24px;
   font-family: "Georgia",sans-serif;
 }
@@ -176,5 +177,5 @@ p{ padding-top: 1rem;
   font-size: 3rem;
   position: fixed;
   bottom: 2rem;
-  left: 0.5rem;
+  right: 0.5rem;
 }
