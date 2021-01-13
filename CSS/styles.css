@@ -9,9 +9,6 @@ body{
     width: 30%;
     text-align: left;
   }
-  body{
-    text-align: center;
-  }
 }
 i{
   font-size: 30px;
@@ -73,7 +70,7 @@ p{ padding-top: 1rem;
   background-color: #f05454;
   opacity: 0.5;
   transition: background-color 2s,opacity 1s;
-  color: black;
+  color: White;
 }
 .languages:hover{
   background-color: #ef4f4f;
