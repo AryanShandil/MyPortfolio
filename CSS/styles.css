@@ -172,8 +172,8 @@ p{ padding-top: 1rem;
   text-align: center;
 }
 .go-up{
-  padding-right:1rem;
-  font-size: 3rem;
+  margin-right:2rem;
+  font-size: 4rem;
   position: fixed;
   bottom: 2rem;
   right: 0.5rem;
