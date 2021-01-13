@@ -160,7 +160,7 @@ p{ padding-top: 1rem;
   text-align: left;
 }
 .cv{
-  padding:0.5rem;
+  margin-right:2rem;
   font-size: 24px;
   font-family: "Georgia",sans-serif;
 }
@@ -172,8 +172,7 @@ p{ padding-top: 1rem;
   text-align: center;
 }
 .go-up{
-  margin-right:2rem;
-  font-size: 4rem;
+  font-size: 20px;
   position: fixed;
   bottom: 2rem;
   right: 0.5rem;
