@@ -9,9 +9,6 @@ body{
     width: 30%;
     text-align: left;
   }
-  #about,#skill,#Hobby,#contact{
-    margin:20rem 0;
-  }
 }
 i{
   font-size: 30px;
@@ -86,13 +83,32 @@ p{ padding-top: 1rem;
   min-width: 100%;
   min-height: 100%;
 }
-#about,#skill,#Hobby{
+#about{
   position: relative;
-  margin: 20rem 0;
+  /*width: 70%;
+  margin: 100px 20% 100px 25%;
+    margin-right: 250px;
+  margin-left: 250px; */
+}
+#Education{
+  position: relative;
+  /*width: 70%;
+  margin :100px 20% 100px 25%;*/
+  font-size: 30px;
+  color: White;
+}
+#skill{
+  /*width: 70%;
+  margin: 100px 20% 30% 25%;*/
+  position: relative;
+  margin-bottom: 15%;
+}
+#Hobby{
+  position: relative;
 }
 #contact{
+  margin-top: 200px;
   position: relative;
-  margin: 20rem 0;
   text-align: center;
 }
 .contactme{
