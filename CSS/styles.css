@@ -190,4 +190,12 @@ p{ padding-top: 1rem;
   position: fixed;
   bottom: 2rem;
   right: 0.5rem;
+  margin-right: 2rem;
+}
+.navbar{
+  background-color: Black;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  z-index: 2;
 }
