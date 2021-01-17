@@ -3,6 +3,9 @@ body{
   color: white;
   font-family:'Times New Roman';
 }
+.container{
+  z-index: 1;
+}
 @media (max-width:1000px) {
   .logo{
     height: 30%;
@@ -34,10 +37,12 @@ h1{
   font-family: 'Georgia',cursive;
   font-size: 40px;
 }
-.top{
+#top{
+  z-index=1;
   position: relative;
   text-align: left;
-  margin: 15% 20% 15% 25%;
+  margin: 0 20% 15% 25%;
+  padding-top:7%;
 }
 span{
   text-decoration: underline;
@@ -90,6 +95,7 @@ p{ padding-top: 1rem;
   min-height: 100%;
 }
 #about{
+  padding-top: 7%;
   position: relative;
   /*width: 70%;
   margin: 100px 20% 100px 25%;
@@ -104,10 +110,12 @@ p{ padding-top: 1rem;
   color: White;
 }
 #skill{
+  padding-top: 7%;
   position: relative;
   margin-bottom: 15%;
 }
 #Hobby{
+  padding-top: 7%;
   position: relative;
 }
 #contact{
