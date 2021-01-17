@@ -5,6 +5,7 @@ body{
 }
 .container{
   z-index: 1;
+  margin-bottom: 15%;
 }
 @media (max-width:1000px) {
   .logo{
@@ -112,13 +113,13 @@ p{ padding-top: 1rem;
 #skill{
   padding-top: 7%;
   position: relative;
-  margin-bottom: 15%;
 }
 #Hobby{
   padding-top: 7%;
   position: relative;
 }
 #contact{
+  padding-top: 7%;
   margin: 200px 0;
   position: relative;
   text-align: center;
@@ -168,7 +169,7 @@ p{ padding-top: 1rem;
   margin-right: 1rem;
 }
 .aboutme{
-  padding: 5% 0 15%;
+  padding: 5% 0 0;
 }
 .navbar-expand-sm{
   text-align: left;
