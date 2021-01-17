@@ -13,12 +13,6 @@ body{
     width: 30%;
     text-align: left;
   }
-  .go-up{
-    font-size:4.5rem;
-  }
-  .contactme{
-    font-size:3rem;
-  }
 }
 i{
   font-size: 30px;
@@ -39,11 +33,11 @@ h1{
   font-size: 40px;
 }
 #top{
-  z-index=1;
+  z-index: 1;
   position: relative;
   text-align: left;
   margin: 0 20% 15% 25%;
-  padding-top:7%;
+  padding-top: 7%;
 }
 span{
   text-decoration: underline;
@@ -82,22 +76,15 @@ p{ padding-top: 1rem;
   background-color: #f05454;
   opacity: 0.5;
   transition: background-color 2s,opacity 1s;
-  color: Black;
+  color: black;
 }
 .languages:hover{
   background-color: #ef4f4f;
   opacity: 0.9;
 }
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
 #about{
-  padding-top: 12%;
   position: relative;
+  padding-top: 12%;
   /*width: 70%;
   margin: 100px 20% 100px 25%;
     margin-right: 250px;
@@ -111,16 +98,27 @@ p{ padding-top: 1rem;
   color: White;
 }
 #skill{
-  padding-top: 12%;
+
+  /*width: 70%;
+  margin: 100px 20% 30% 25%;*/
   position: relative;
+  padding-top: 12%;
+
 }
 #Hobby{
-  padding-top: 12%;
   position: relative;
+  padding-top: 12%;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 #contact{
   padding-top: 12%;
-  margin: 200px 0;
+  margin-top: 200px;
   position: relative;
   text-align: center;
 }
@@ -172,7 +170,6 @@ p{ padding-top: 1rem;
   text-align: left;
 }
 .cv{
-  margin-top:2rem;
   font-size: 24px;
   font-family: "Georgia",sans-serif;
 }
@@ -184,10 +181,10 @@ p{ padding-top: 1rem;
   text-align: center;
 }
 .go-up{
-  font-size: 3rem;
   position: fixed;
   bottom: 2rem;
   right: 0.5rem;
+  font-size: 4rem;
   margin-right: 2rem;
 }
 .navbar{
