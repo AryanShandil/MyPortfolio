@@ -96,7 +96,7 @@ p{ padding-top: 1rem;
   min-height: 100%;
 }
 #about{
-  padding-top: 7%;
+  padding-top: 12%;
   position: relative;
   /*width: 70%;
   margin: 100px 20% 100px 25%;
@@ -111,15 +111,15 @@ p{ padding-top: 1rem;
   color: White;
 }
 #skill{
-  padding-top: 7%;
+  padding-top: 12%;
   position: relative;
 }
 #Hobby{
-  padding-top: 7%;
+  padding-top: 12%;
   position: relative;
 }
 #contact{
-  padding-top: 7%;
+  padding-top: 12%;
   margin: 200px 0;
   position: relative;
   text-align: center;
@@ -167,9 +167,6 @@ p{ padding-top: 1rem;
 }
 .nav-item{
   margin-right: 1rem;
-}
-.aboutme{
-  padding: 5% 0 0;
 }
 .navbar-expand-sm{
   text-align: left;
